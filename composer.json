@@ -1,0 +1,17 @@
+{
+    "name": "salahjr/php-design-patterns-implementation",
+    "description": "This is a PHP implementation for some of the design patterns.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "salah-jr",
+            "email": "mohammed.s.korna@gmail.com"
+        }
+    ],
+    "require": {}
+}
