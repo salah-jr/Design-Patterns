@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Behavioral\Observer;
+namespace src\Behavioral\Observer\Enums;
 
 enum EventType
 {

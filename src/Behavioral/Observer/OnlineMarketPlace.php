@@ -2,6 +2,8 @@
 
 namespace src\Behavioral\Observer;
 
+use src\Behavioral\Observer\Enums\EventType;
+
 class OnlineMarketPlace
 {
     private $subscribers = [];

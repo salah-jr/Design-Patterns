@@ -1,12 +1,12 @@
 <?php
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/../../../vendor/autoload.php';
 
-use src\Behavioral\Observer\EventType;
+use src\Behavioral\Observer\Customer;
+use src\Behavioral\Observer\Enums\EventType;
 use src\Behavioral\Observer\JobFinder;
 use src\Behavioral\Observer\Offer;
 use src\Behavioral\Observer\OnlineMarketPlace;
 use src\Behavioral\Observer\Product;
-use src\Behavioral\Observer\Customer;
 
 $onlineMarketPlace = new OnlineMarketPlace();
 
