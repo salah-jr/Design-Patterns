@@ -23,6 +23,7 @@ $textEditor->setContent('This should not be saved');
 
 $textEditor->restore($history->undo($textEditor->save()));
 $textEditor->restore($history->undo($textEditor->save()));
-$textEditor->restore($history->redo()); // Welcome to my DP repo...
+$textEditor->restore($history->redo($textEditor->save())); // Welcome to my DP repo...
+$textEditor->restore($history->undo($textEditor->save())); // World
 
 print_r($textEditor->save());

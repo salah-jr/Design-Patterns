@@ -29,8 +29,10 @@ class History
         return null;
     }
 
-    public function redo()
+    public function redo(TextEditorState $state)
     {
+        $this->prevStates[] = $state;
+
         if (count($this->nextStates) > 0) {
             return array_pop($this->nextStates);
         }
